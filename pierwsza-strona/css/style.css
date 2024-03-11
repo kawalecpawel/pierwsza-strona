@@ -19,7 +19,7 @@ body {
 }
 
 .banner{
-  background-image: url("../img/Kolarz.jpg");
+  background-image: url("../assets/Kolarz.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-origin: content-box;
