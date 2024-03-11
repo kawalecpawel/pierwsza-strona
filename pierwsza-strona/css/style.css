@@ -26,6 +26,7 @@ body {
 }
 
 .textOnBanner {
+  font-size: xx-large;
   display: flex;
   color: black;
   justify-content: end;
@@ -35,6 +36,10 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #222222;
+}
+
+.navlink{
+  color: white;
 }
 
 .button{
@@ -49,9 +54,7 @@ body {
   background-color: #555555;
 }
 
-.navlink{
-  color: white;
-}
+
 
 .name {
   display: flex;
@@ -74,10 +77,13 @@ p {
   display: none;
 }
 
+* {
+  box-sizing: border-box;
+}
 .gallery {
-  display: block;
   border: 1px solid #ccc;
 }
+
 
 .gallery:hover {
   border: 1px solid #777;
